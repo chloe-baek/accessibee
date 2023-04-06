@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 
 export default function Header() {
-  const [click, setClick] = useState(false);
-  const closeMenu = () => setClick(false);
   return (
     <header className='w-full h-screen'>
       <nav className='flex justify-between mx-12'>
@@ -12,6 +10,7 @@ export default function Header() {
           alt='logo'
           className='w-2/6 max-w-[230px] h-auto py-5'
         />
+
         <ul className='flex items-center justify-between'>
           <li className='text-2xl font-semibold cursor-pointer ml-7 p-4'>
             <Link
@@ -20,7 +19,6 @@ export default function Header() {
               smooth={true}
               offset={50}
               duration={500}
-              onClick={closeMenu}
             >
               Module1
             </Link>
@@ -32,7 +30,6 @@ export default function Header() {
               smooth={true}
               offset={10}
               duration={500}
-              onClick={closeMenu}
             >
               Module2
             </Link>
@@ -44,7 +41,6 @@ export default function Header() {
               smooth={true}
               offset={10}
               duration={500}
-              onClick={closeMenu}
             >
               Module3
             </Link>
@@ -56,7 +52,6 @@ export default function Header() {
               smooth={true}
               offset={10}
               duration={500}
-              onClick={closeMenu}
             >
               Module4
             </Link>
