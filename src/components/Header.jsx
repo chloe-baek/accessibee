@@ -58,7 +58,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className='bg-[#f0ab56] h-3/6 py-36 flex items-center absolute top-0 translate-y-2/4'>
+      <div className='bg-[#f0ab56] h-3/4 py-36 flex items-center absolute top-0 translate-y-40'>
         <div className='flex justify-between mx-auto w-3/4'>
           <div className='basis-6/12 pr-8'>
             <h1 className='text-6xl font-semibold pb-8'>

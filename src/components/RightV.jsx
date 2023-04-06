@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function RightV({ h3, p, video }) {
   return (
-    <section className='py-40 mx-auto w-4/5' id='right1'>
+    <section className='py-36 mx-auto w-4/5' id='right1'>
       <div className='flex'>
         <div className='basis-1/2 pr-5'>
           <video autoPlay muted loop>
