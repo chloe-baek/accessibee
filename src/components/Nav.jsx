@@ -1,31 +1,40 @@
 import React from 'react';
+import { useDarkMode } from '../context/DarkModeContext';
 import { NavLink } from 'react-router-dom';
+import { HiMoon, HiSun } from 'react-icons/hi';
 
 export default function Nav() {
+  const { darkMode, toggleDarkMode } = useDarkMode();
   const mainClassName =
     'list-item list-none text-xl font-bold mt-4 pl-1 hover:border-l-4 hover:border-[#f0ab56] focus:border-[#f0ab56] focus:border-l-4 ';
 
   const subClassName =
     'list-item list-none text-base font-medium pl-4 hover:border-l-2 hover:border-[#f0ab56] focus:border-l-2 focus:border-[#f0ab56]';
 
+  const changeImg = darkMode ? 'blue' : 'yellow';
+  const imgUrl = `/img/magjay_${changeImg}.png`;
   return (
-    <header className='bg-[#f7f3e3] w-[23vw] max-w-xs h-[96vh] border'>
+    <header className='bg-[#deefb7] dark:bg-[#970C0C] w-[23vw] max-w-xs h-[96vh] rounded-xl dark:text-gray-100 z-10'>
+      <button onClick={toggleDarkMode} className='text-2xl pl-3 pt-3'>
+        {!darkMode && <HiMoon />}
+        {darkMode && <HiSun />}
+      </button>
       <NavLink to='/'>
-        <img src='/img/logo-tp.png' alt='logo' className='py-5' />
+        <img src={imgUrl} alt='logo' className='py-5' />
       </NavLink>
       <nav className='mx-6'>
         <ul>
-          <NavLink to='/general' className={mainClassName}>
-            General
+          <NavLink to='/prototype' className={mainClassName}>
+            Prototype
           </NavLink>
-          <NavLink to='/general/contrast' className={subClassName}>
-            Contrast
+          <NavLink to='/prototype/overview' className={subClassName}>
+            Overview
           </NavLink>
-          <NavLink to='/general/fontsize' className={subClassName}>
-            Font Size
+          <NavLink to='/prototype/personas' className={subClassName}>
+            Personas
           </NavLink>
-          <NavLink to='/general/linkbutton' className={subClassName}>
-            Link & Button
+          <NavLink to='/prototype/research' className={subClassName}>
+            Research
           </NavLink>
 
           <NavLink to='/mobile' className={mainClassName}>

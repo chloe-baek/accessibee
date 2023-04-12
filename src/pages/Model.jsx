@@ -4,7 +4,7 @@ import { motion as m } from 'framer-motion';
 export default function Model({ title, subtitle, src, para1 }) {
   return (
     <m.section
-      className='flex items-center justify-center w-full'
+      className='flex items-center justify-center w-full h-full min-h-0 flex-auto overflow-y-auto '
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -15,7 +15,7 @@ export default function Model({ title, subtitle, src, para1 }) {
           <source src={src} type='video/mp4' />
         </video>
       </div>
-      <div className='basis-[45%]'>
+      <div className='basis-[45%] h-fit'>
         <h3 className='pb-6 text-5xl font-serif text-right font-semibold'>
           {title}
         </h3>
