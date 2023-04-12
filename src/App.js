@@ -7,7 +7,7 @@ import { DarkModeProvider } from './context/DarkModeContext';
 function App() {
   return (
     <DarkModeProvider>
-      <div className='flex h-[96vh] m-5'>
+      <div className='flex h-[95vh] m-5'>
         <Nav />
         <Main />
         <Footer />
