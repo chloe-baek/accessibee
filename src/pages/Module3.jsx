@@ -1,5 +1,5 @@
 import React from 'react';
-import Model from './Model';
+import Model from '../components/ModelLeft';
 
 export default function Module3() {
   return (

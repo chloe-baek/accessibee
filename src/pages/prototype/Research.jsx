@@ -1,5 +1,5 @@
 import React from 'react';
-import ModelLeft from '../ModelLeft';
+import ModelLeft from '../../components/ModelLeft';
 
 export default function Research() {
   return (

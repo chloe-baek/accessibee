@@ -1,5 +1,5 @@
 import React from 'react';
-import Model from '../Model';
+import Model from '../../components/Model';
 
 export default function Personas() {
   return (

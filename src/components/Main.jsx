@@ -8,9 +8,14 @@ import Website from '../pages/Website';
 import Overview from '../pages/prototype/Overview';
 import Personas from '../pages/prototype/Personas';
 import Research from '../pages/prototype/Research';
-import Haptics from '../pages/mobile/Haptics';
-import Module3 from '../pages/Module3';
-import Module4 from '../pages/Mobile';
+import InstantText from '../pages/mobile/InstantText';
+import General from '../pages/mobile/General';
+import Customizable from '../pages/mobile/Cutomizable';
+import Search from '../pages/mobile/Search';
+import Community from '../pages/mobile/Community';
+import Settings from '../pages/mobile/Settings';
+import MacroButton from '../pages/mobile/MacroButton';
+import DarkMode from '../pages/mobile/DarkMode';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
@@ -22,10 +27,18 @@ const routes = [
   { path: '/prototype/personas', name: 'Personas', Component: Personas },
   { path: '/prototype/research', name: 'Research', Component: Research },
 
-  { path: '/mobile/haptics', name: 'Haptics', Component: Haptics },
-
-  { path: '/module3', name: 'Module3', Component: Module3 },
-  { path: '/module4', name: 'Module4', Component: Module4 },
+  { path: '/mobile/instanttext', name: 'InstantText', Component: InstantText },
+  { path: '/mobile/general', name: 'General', Component: General },
+  {
+    path: '/mobile/customizable',
+    name: 'Customizable',
+    Component: Customizable,
+  },
+  { path: '/mobile/search', name: 'Search', Component: Search },
+  { path: '/mobile/community', name: 'Community', Component: Community },
+  { path: '/mobile/settings', name: 'Settings', Component: Settings },
+  { path: '/mobile/macrobutton', name: 'MacroButton', Component: MacroButton },
+  { path: '/mobile/darkmode', name: 'DarkMode', Component: DarkMode },
 ];
 
 const routeComponents = routes.map(({ path, Component }) => (
