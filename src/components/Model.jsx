@@ -5,7 +5,7 @@ function NewLine(props) {
   const text = props.text;
   return text
     .split('\n')
-    .map((str) => <p className='py-4 text-lg leading-8'>{str}</p>);
+    .map((str) => <p className='py-3 text-lg leading-8'>{str}</p>);
 }
 
 export default function Model({ title, src, para1, para2 }) {
@@ -19,11 +19,11 @@ export default function Model({ title, src, para1, para2 }) {
     >
       {/* <div className='flex items-start justify-center '> */}
       <div className='basis-[45%] flex justify-center'>
-        <video autoPlay muted loop className='w-2/3'>
+        <video autoPlay muted loop className='w-3/5 rounded-3xl'>
           <source src={src} type='video/mp4' />
         </video>
       </div>
-      <div className='basis-[45%] h-full'>
+      <div className='basis-[45%] h-fit px-6 '>
         <h3 className='pb-6 text-5xl font-serif font-semibold'>{title}</h3>
         <NewLine text={para1} />
       </div>
