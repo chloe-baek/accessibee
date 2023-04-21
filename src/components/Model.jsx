@@ -23,7 +23,7 @@ export default function Model({ title, src, para1, para2 }) {
           <source src={src} type='video/mp4' />
         </video>
       </div>
-      <div className='basis-[45%] h-fit'>
+      <div className='basis-[45%] h-full'>
         <h3 className='pb-6 text-5xl font-serif font-semibold'>{title}</h3>
         <NewLine text={para1} />
       </div>
