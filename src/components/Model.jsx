@@ -19,11 +19,11 @@ export default function Model({ title, src, para1, para2 }) {
     >
       {/* <div className='flex items-start justify-center '> */}
       <div className='basis-[45%] flex justify-center'>
-        <video autoPlay muted loop className='w-3/5 rounded-3xl'>
+        <video autoPlay muted loop className='w-3/5 max-w-sm rounded-3xl'>
           <source src={src} type='video/mp4' />
         </video>
       </div>
-      <div className='basis-[45%] h-fit px-6 '>
+      <div className='basis-[45%] h-fit pt-2'>
         <h3 className='pb-6 text-5xl font-serif font-semibold'>{title}</h3>
         <NewLine text={para1} />
       </div>
