@@ -13,7 +13,7 @@ export default function Nav() {
   const changeImg = darkMode ? 'blue' : 'yellow';
   const imgUrl = `/img/magjay_${changeImg}.png`;
   return (
-    <header className='bg-[#deefb7] dark:bg-[#970C0C] w-[23vw] max-w-xs h-[95vh] rounded-xl dark:text-gray-100 z-10'>
+    <header className='bg-[#deefb7] dark:bg-[#970C0C] w-[23vw] max-w-xs h-[95vh] rounded-xl dark:text-gray-100 z-10 pb-7'>
       <button onClick={toggleDarkMode} className='text-2xl pl-3 pt-3'>
         {!darkMode && <HiMoon />}
         {darkMode && <HiSun />}
