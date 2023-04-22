@@ -8,7 +8,7 @@ function NewLine(props) {
     .map((str) => <p className='py-3 text-lg leading-8'>{str}</p>);
 }
 
-export default function Model({ title, src, para1, para2 }) {
+export default function Model({ title, src, para1 }) {
   return (
     <m.section
       className='flex items-center justify-center w-full h-full min-h-0 flex-auto overflow-y-auto -ml-8'

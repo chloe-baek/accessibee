@@ -8,7 +8,7 @@ export default function Nav() {
   const mainClassName = 'list-item list-none text-xl font-bold mt-4 pl-1 py-1';
 
   const subClassName =
-    'list-item list-none text-base font-medium pl-4 my-2 hover:border-l-2 hover:border-[#f0ab56] focus:border-l-2 focus:border-[#f0ab56]';
+    'list-item list-none text-base font-medium pl-4 my-2 hover:border-l-2 hover:border-[#f0ab56] hover:font-bold focus:border-l-2 focus:border-[#f0ab56] focus:font-bold';
 
   const changeImg = darkMode ? 'blue' : 'yellow';
   const imgUrl = `/img/magjay_${changeImg}.png`;
@@ -52,7 +52,7 @@ export default function Nav() {
             Community
           </NavLink>
           <NavLink to='/mobile/settings' className={subClassName}>
-            Accessiblity Settings
+            Accessibility Settings
           </NavLink>
           <NavLink to='/mobile/macrobutton' className={subClassName}>
             Accessibility Macro Button
