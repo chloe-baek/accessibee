@@ -5,10 +5,11 @@ import { HiMoon, HiSun } from 'react-icons/hi';
 
 export default function Nav() {
   const { darkMode, toggleDarkMode } = useDarkMode();
-  const mainClassName = 'list-item list-none text-xl font-bold mt-4 pl-1 py-1';
+  const mainClassName =
+    'list-item list-none text-base font-bold mt-4 pl-0 py-0 md:pl-1 md:py-1 md:text-xl';
 
   const subClassName =
-    'list-item list-none text-base font-medium pl-4 my-2 hover:border-l-2 hover:border-[#f0ab56] hover:font-bold focus:border-l-2 focus:border-[#f0ab56] focus:font-bold';
+    'list-item list-none text-sm font-medium pl-1 my-2 hover:border-l-2 hover:border-[#f0ab56] hover:font-bold focus:border-l-2 focus:border-[#f0ab56] focus:font-bold md:text-base md:pl-4';
 
   const changeImg = darkMode ? 'blue' : 'yellow';
   const imgUrl = `/img/magjay_${changeImg}.png`;
@@ -22,11 +23,14 @@ export default function Nav() {
         <img src={imgUrl} alt='logo' className='py-5' />
       </NavLink>
 
-      <nav className='mx-1 px-4 overflow-y-auto h-4/5'>
+      <nav className='mx-1 px-2 overflow-y-auto h-4/5 md:px-4'>
         <ul>
           <h2 className={mainClassName}>Prototype</h2>
           <NavLink to='/prototype/overview' className={subClassName}>
             Overview
+          </NavLink>
+          <NavLink to='/prototype/team' className={subClassName}>
+            Team
           </NavLink>
           <NavLink to='/prototype/personas' className={subClassName}>
             Personas

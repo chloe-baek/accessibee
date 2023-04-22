@@ -14,7 +14,7 @@ export default function Overview() {
       <h3 className='mr-10 mt-10 ml-12 pb-4 text-center text-4xl lg:text-5xl font-serif font-semibold border-b-2 border-gray-500'>
         Overview
       </h3>
-      <div className='ml-4 py-6 px-20'>
+      <div className='ml-4 py-6 px-8 md:px-20'>
         <p className={paraStyle}>
           Our capstone project was an opportunity to apply all the knowledge and
           experiences we’ve gained through our program and extend beyond the

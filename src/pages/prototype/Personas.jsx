@@ -45,7 +45,7 @@ export default function Personas() {
     'Needs: The ability to increase contrast on page and/or screen reader',
   ];
   const anna = [
-    'Anne is healthy and does not. But she has a problem remembering things like a story her 	neighbor told a month ago.',
+    'Anne is healthy and does not have a particular disability, but she has a problem remembering things like a story her neighbour told a month ago.',
     '80',
     'Living with her daughter',
     'No job',
@@ -92,8 +92,8 @@ export default function Personas() {
       <h3 className='mr-10 mt-10 ml-12 pb-4 text-center text-4xl lg:text-5xl font-serif font-semibold border-b-2 border-gray-500'>
         Personas
       </h3>
-      <div className='ml-4 py-6 px-20'>
-        <p className='text-md xl:text-lg pt-4 pb-8 leading-7 xl:leading-8'>
+      <div className='ml-4 py-6 px-8 md:px-20'>
+        <p className='text-md xl:text-lg py-4 leading-7 xl:leading-8'>
           It’s crucial to understand the kinds of problems you’re designing for.
           Understanding who to design for nets even better results. Our group
           came up with these proto-personas based on our research.
@@ -199,7 +199,7 @@ export default function Personas() {
           <img
             src='/img/personas/Sienna.jpg'
             alt='portrait of Sienna'
-            className=' my-3 mx-auto md:m-0 w-2/5 h-2/5 rounded-full min-w-[200px] max-w-[280px]'
+            className='my-3 mx-auto md:m-0 w-2/5 h-2/5 rounded-full min-w-[200px] max-w-[280px]'
           />
           <div className='pl-7 basis-3/5'>
             <h4 className='font-bold text-2xl pb-4'> Sienna</h4>

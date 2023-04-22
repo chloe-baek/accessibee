@@ -7,7 +7,7 @@ export default function Search() {
       title={'Search Chat History'}
       src={'/video/mobile/search-chat-history.mp4'}
       para1={
-        'The customizable chat preview is a way for users with cognitive disabilities to have Accessibee summarize their recent chat history with the selected contact. Or, they also have the option to simply view the last message similar to conventional messaging apps.\n Users with Alzheimers, or other cognitive disabilities related to age and memory will be able to utilize this functionality to quickly remember or get up-to-date with previous conversations. '
+        'The chat history search functionality in this app, designed for individuals with cognitive disabilities, enables users to locate particular messages or keywords that they find useful for recalling or revisiting specific parts of conversations.\n Users with Alzheimers, or other cognitive disabilities related to age and memory will be able to utilize this functionality to quickly remember or get up-to-date with previous conversations.'
       }
     />
   );

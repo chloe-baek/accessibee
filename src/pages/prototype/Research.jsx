@@ -105,7 +105,7 @@ export default function Research() {
       <h3 className='mr-10 mt-10 ml-12 pb-4 text-center text-4xl lg:text-5xl font-serif font-semibold border-b-2 border-gray-500'>
         Refined Research Guidelines
       </h3>
-      <div className='ml-4 block md:flex md:justify-evenly'>
+      <div className='ml-4 block md:flex md:justify-evenly px-8 md:px-20'>
         <div className='basis-[45%] max-w-sm md:max-w-lg'>
           <h4 className={headingStyle}>General</h4>
           <ul className={containerStyle}>{itemList(general)}</ul>

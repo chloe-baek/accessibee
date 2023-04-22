@@ -16,6 +16,7 @@ import Community from '../pages/mobile/Community';
 import Settings from '../pages/mobile/Settings';
 import MacroButton from '../pages/mobile/MacroButton';
 import DarkMode from '../pages/mobile/DarkMode';
+import Team from '../pages/prototype/Team';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
@@ -24,6 +25,7 @@ const routes = [
   { path: '/website', name: 'Website', Component: Website },
 
   { path: '/prototype/overview', name: 'Overview', Component: Overview },
+  { path: '/prototype/team', name: 'Team', Component: Team },
   { path: '/prototype/personas', name: 'Personas', Component: Personas },
   { path: '/prototype/research', name: 'Research', Component: Research },
 
