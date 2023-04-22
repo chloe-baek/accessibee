@@ -11,7 +11,7 @@ function NewLine(props) {
 export default function Model({ title, src, para1, para2 }) {
   return (
     <m.section
-      className='flex items-center justify-center w-full h-full min-h-0 flex-auto overflow-y-auto '
+      className='flex items-center justify-center w-full h-full min-h-0 flex-auto overflow-y-auto -ml-8'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
