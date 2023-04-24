@@ -8,8 +8,9 @@ export default function Nav() {
   const mainClassName =
     'list-item list-none text-base font-bold mt-4 pl-0 py-0 md:pl-1 md:py-1 md:text-xl';
 
+  // dark:hover:border-[#286074] dark:focus:border-[#286074]
   const subClassName =
-    'list-item list-none text-sm font-medium pl-1 my-2 hover:border-l-2 hover:border-[#f0ab56] hover:font-bold focus:border-l-2 focus:border-[#f0ab56] focus:font-bold md:text-base md:pl-4 dark:hover:border-[#286074] dark:focus:border-[#286074]';
+    'list-item list-none text-sm font-medium pl-1 my-2 hover:border-l-2 hover:border-[#f0ab56] hover:font-bold focus:border-l-2 focus:border-[#f0ab56] focus:font-bold md:text-base md:pl-4';
 
   const changeImg = darkMode ? 'blue' : 'yellow';
   const imgUrl = `/img/magjay_${changeImg}.png`;
