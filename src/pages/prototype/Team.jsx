@@ -21,7 +21,7 @@ export default function Team() {
           <div className={cardStyle}>
             <img
               className={imgStyle}
-              src='/img/personas/Anita.jpg'
+              src='/img/team/Muke.jpg'
               alt='portrait of Muke'
             />
             <h3 className='pt-2 text-lg font-semibold underline decoration-[#286074] decoration-4'>

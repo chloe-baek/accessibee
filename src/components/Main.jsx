@@ -15,6 +15,10 @@ import MacroButton from '../pages/mobile/MacroButton';
 import DarkMode from '../pages/mobile/DarkMode';
 import Team from '../pages/prototype/Team';
 import Chat from '../pages/website/Chat';
+import Color from '../pages/website/Color';
+import Notepad from '../pages/website/Notepad';
+import Screen from '../pages/website/Screen';
+import SearchWeb from '../pages/website/SearchWeb';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
@@ -38,6 +42,10 @@ const routes = [
   { path: '/mobile/darkmode', name: 'DarkMode', Component: DarkMode },
 
   { path: '/website/chat', name: 'Chat', Component: Chat },
+  { path: '/website/colorscheme', name: 'Color', Component: Color },
+  { path: '/website/notepad', name: 'Notepad', Component: Notepad },
+  { path: '/website/screenorientation', name: 'Screen', Component: Screen },
+  { path: '/website/search', name: 'SearchWeb', Component: SearchWeb },
 ];
 
 const routeComponents = routes.map(({ path, Component }) => (

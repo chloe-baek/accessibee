@@ -19,7 +19,7 @@ export default function Nav() {
         {!darkMode && <HiMoon />}
         {darkMode && <HiSun />}
       </button>
-      <NavLink to='/#'>
+      <NavLink to='/'>
         <img src={imgUrl} alt='logo' className='py-5' />
       </NavLink>
 
@@ -69,14 +69,17 @@ export default function Nav() {
           <NavLink to='/website/chat' className={subClassName}>
             Chat Page
           </NavLink>
-          <NavLink to='/module2' className={subClassName}>
-            Module2
+          <NavLink to='/website/colorscheme' className={subClassName}>
+            Color Scheme
           </NavLink>
-          <NavLink to='/module2' className={subClassName}>
-            Module2
+          <NavLink to='/website/notepad' className={subClassName}>
+            Notepad
           </NavLink>
-          <NavLink to='/module2' className={subClassName}>
-            Module2
+          <NavLink to='/website/screenorientation' className={subClassName}>
+            Screen Orientation
+          </NavLink>
+          <NavLink to='/website/search' className={subClassName}>
+            Search
           </NavLink>
         </ul>
       </nav>
