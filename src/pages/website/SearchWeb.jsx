@@ -7,7 +7,7 @@ export default function SearchWeb() {
       title={'Search'}
       src={'/video/website/search.mp4'}
       para1={
-        "The text is large. This is to make content easier to read. Buttons with different functions are shaped differently so that viewers can easily remember and recognize them. AI auto-generates a summary of the conversation so that users don't have to open the conversation to look for content"
+        "Users can click on 'condition' to add more information. This can make their search results more precise."
       }
     ></ModelTop>
   );

@@ -7,7 +7,7 @@ export default function Color() {
       title={'Color Scheme'}
       src={'/video/website/color_scheme.mp4'}
       para1={
-        "The text is large. This is to make content easier to read. Buttons with different functions are shaped differently so that viewers can easily remember and recognize them. AI auto-generates a summary of the conversation so that users don't have to open the conversation to look for content"
+        'This is how a color-blind person can select and apply red-blue color scheme to the page if orange-and-red does not fit him.'
       }
     ></ModelTop>
   );

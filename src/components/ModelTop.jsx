@@ -5,9 +5,7 @@ function NewLine(props) {
   const text = props.text;
   return text
     .split('\n')
-    .map((str) => (
-      <p className='py-3 text-lg leading-8 w-2/3 max-w-5xl'>{str}</p>
-    ));
+    .map((str) => <p className='py-2 text-lg leading-8'>{str}</p>);
 }
 
 export default function ModelTop({ title, src, para1 }) {
@@ -32,8 +30,9 @@ export default function ModelTop({ title, src, para1 }) {
           <source src={src} type='video/mp4' />
         </video>
       </div>
-
-      <NewLine text={para1} />
+      <div className=' w-2/3 max-w-5xl'>
+        <NewLine text={para1} />
+      </div>
     </m.section>
   );
 }

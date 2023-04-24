@@ -7,7 +7,7 @@ export default function Screen() {
       title={'Screen Orientation'}
       src={'/video/website/screen_orientation.mp4'}
       para1={
-        "The text is large. This is to make content easier to read. Buttons with different functions are shaped differently so that viewers can easily remember and recognize them. AI auto-generates a summary of the conversation so that users don't have to open the conversation to look for content"
+        'This is the demonstration of screen orientation. People with different blindness can change the screen orientation according to theri type of blindness.\n For peripheral blindness, all the components will be squeezed to the centre. \n For central blindness, all components will be pushed to the sides and the centre will be a blank.'
       }
     ></ModelTop>
   );
