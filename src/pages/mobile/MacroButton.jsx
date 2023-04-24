@@ -7,7 +7,7 @@ export default function MacroButton() {
       title={'Accessibee Macro Button'}
       src={'/video/mobile/assigning-accessibee-button.mp4'}
       para1={
-        'The Accessibee app has a feature that allows the user to assign an accessibility setting to an easily accessible macro button with the Accessibee logo. Regardless of where you are on the app, the user will be able to enable an accessibility setting of there choosing whenever necessary. \n The zoom functionality is assigned as an example in the demo. '
+        "Accessibee includes a convenient macro button with the app's logo that enables users to assign an accessibility setting for easy access throughout the app. This feature allows users to activate their preferred accessibility setting regardless of their current location within the app. As an example, the demo showcases how users can use this feature to access the zoom functionality."
       }
     />
   );
