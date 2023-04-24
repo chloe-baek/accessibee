@@ -8,9 +8,9 @@ export default function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ delay: 0.25, duration: 0.5, ease: 'easeInOut' }}
-      className='flex justify-center items-center w-full h-full bg-[#ffbf81] dark:bg-[#286074] rounded-r-xl'
+      className='flex justify-center items-center w-full h-full bg-[#ffbf81] dark:bg-[#286074] rounded-r-xl pl-2'
     >
-      <div className='basis-[50%]'>
+      <div className='basis-[50%] max-w-max'>
         <h1 className='text-6xl font-bold pb-8 text-[#f7f3e3] dark:text-black'>
           <div className='text-2xl text-black font-bold dark:text-[#f7f3e3]'>
             Case Study of
@@ -31,7 +31,7 @@ export default function Home() {
           based on web and mobile application designs that consider all users.
         </p>
       </div>
-      <div className='basis-[40%] flex justify-center'>
+      <div className='basis-[40%] flex justify-center max-w-screen-md'>
         <img
           src='img/accessibee.png'
           alt='logo of Accessibee'

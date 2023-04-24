@@ -17,6 +17,7 @@ import Settings from '../pages/mobile/Settings';
 import MacroButton from '../pages/mobile/MacroButton';
 import DarkMode from '../pages/mobile/DarkMode';
 import Team from '../pages/prototype/Team';
+import Chat from '../pages/website/Chat';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
@@ -41,6 +42,8 @@ const routes = [
   { path: '/mobile/settings', name: 'Settings', Component: Settings },
   { path: '/mobile/macrobutton', name: 'MacroButton', Component: MacroButton },
   { path: '/mobile/darkmode', name: 'DarkMode', Component: DarkMode },
+
+  { path: '/website/chat', name: 'Chat', Component: Chat },
 ];
 
 const routeComponents = routes.map(({ path, Component }) => (

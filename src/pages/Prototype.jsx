@@ -1,5 +1,5 @@
 import React from 'react';
-import Model from '../components/ModelLeft';
+import Model from '../components/ModelTop';
 
 export default function Prototype() {
   return (

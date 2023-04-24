@@ -19,14 +19,22 @@ export default function Team() {
       <div className='flex justify-center flex-wrap items-center h-4/5 w-5/6 mx-auto  '>
         <div>
           <div className={cardStyle}>
-            <img className={imgStyle} src='/img/personas/Anita.jpg' alt='' />
+            <img
+              className={imgStyle}
+              src='/img/personas/Anita.jpg'
+              alt='portrait of Muke'
+            />
             <h3 className='pt-2 text-lg font-semibold underline decoration-[#286074] decoration-4'>
               <span className='text-2xl font-extrabold text-yellow-500'>M</span>
               uke Li
             </h3>
           </div>
           <div className={cardStyle}>
-            <img className={imgStyle} src='/img/personas/Anita.jpg' alt='' />
+            <img
+              className={imgStyle}
+              src='/img/team/Gunchin.jpg'
+              alt='portrait of Gunchin'
+            />
             <h3 className='pt-2 text-lg font-semibold underline decoration-[#286074] decoration-4'>
               <span className='text-2xl font-extrabold text-yellow-500'>G</span>
               unchin Dandar
@@ -35,14 +43,22 @@ export default function Team() {
         </div>
         <div>
           <div className={cardStyle}>
-            <img className={imgStyle} src='/img/personas/Anita.jpg' alt='' />
+            <img
+              className={imgStyle}
+              src='/img/team/Aris.jpg'
+              alt='portrait of Aris'
+            />
             <h3 className='pt-2 text-lg font-semibold underline decoration-[#286074] decoration-4'>
               <span className='text-2xl font-extrabold text-yellow-500'>A</span>
-              nne Bolton
+              ris Bolton
             </h3>
           </div>
           <div className={cardStyle}>
-            <img className={imgStyle} src='/img/personas/Anita.jpg' alt='' />
+            <img
+              className={imgStyle}
+              src='/img/team/Chloe.jpg'
+              alt='portrait of Jiwon'
+            />
             <h3 className='pt-2 text-lg font-semibold underline decoration-[#286074] decoration-4'>
               <span className='text-2xl font-extrabold text-yellow-500'>J</span>
               ewon Baek

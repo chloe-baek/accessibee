@@ -4,7 +4,7 @@ import { motion as m } from 'framer-motion';
 export default function Personas() {
   const listStyle = 'list-disc text-md';
   const boxStyle =
-    'block md:flex md:items-center md:justify-evenly border-2 rounded-xl p-5 border-gray-400 max-w-screen-xl mx-auto my-7 shadow-lg';
+    'block md:flex md:items-center md:justify-evenly border-2 rounded-xl p-5 border-gray-400 max-w-screen-xl mx-auto my-7 shadow-lg dark:shadow-white dark:shadow-md';
   function itemList(list) {
     return list.map((item, index) => (
       <li className={listStyle} key={index}>
