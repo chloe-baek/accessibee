@@ -31,7 +31,7 @@ export default function Home() {
           based on web and mobile application designs that consider all users.
         </p>
       </div>
-      <div className='basis-[40%] flex justify-center max-w-screen-md'>
+      <div className='flex justify-center max-w-[350px]'>
         <img
           src='img/accessibee.png'
           alt='logo of Accessibee'
