@@ -27,7 +27,7 @@ export default function ModelTop({ title, src, para1 }) {
           autoPlay
           muted
           loop
-          className='w-full max-w-[660px] mx-auto min-w-[300px]  rounded-3xl'
+          className='w-full max-w-[660px] mx-auto min-w-[300px] rounded-3xl'
         >
           <source src={src} type='video/mp4' />
         </video>

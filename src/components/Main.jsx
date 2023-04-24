@@ -2,9 +2,6 @@ import React from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from '../pages/Home';
-import Prototype from '../pages/Prototype';
-import Mobile from '../pages/Mobile';
-import Website from '../pages/Website';
 import Overview from '../pages/prototype/Overview';
 import Personas from '../pages/prototype/Personas';
 import Research from '../pages/prototype/Research';
@@ -21,9 +18,6 @@ import Chat from '../pages/website/Chat';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
-  { path: '/prototype', name: 'Prototype', Component: Prototype },
-  { path: '/mobile', name: 'Mobile', Component: Mobile },
-  { path: '/website', name: 'Website', Component: Website },
 
   { path: '/prototype/overview', name: 'Overview', Component: Overview },
   { path: '/prototype/team', name: 'Team', Component: Team },

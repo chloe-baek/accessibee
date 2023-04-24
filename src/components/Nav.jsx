@@ -19,7 +19,7 @@ export default function Nav() {
         {!darkMode && <HiMoon />}
         {darkMode && <HiSun />}
       </button>
-      <NavLink to='/'>
+      <NavLink to='/#'>
         <img src={imgUrl} alt='logo' className='py-5' />
       </NavLink>
 
