@@ -13,7 +13,7 @@ function NewLine(props) {
 export default function ModelTop({ title, src, para1 }) {
   return (
     <m.section
-      className='flex flex-col items-center justify-evenly w-full h-4/5 min-h-0 flex-auto overflow-y-auto'
+      className='flex flex-col items-center justify-evenly w-full h-full min-h-0 flex-auto overflow-y-auto'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
